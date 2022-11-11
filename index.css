@@ -1,0 +1,107 @@
+@keyframes rise {
+  from {
+    transform: translateX(0%) translateY(0%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-200%) translateY(-250%) rotate(18deg);
+  }
+}
+
+nav.navbar.navbar-expand-lg.navbar-transparent.navbar-inverse.bg-dark {
+  position: fixed;
+  height: 85px;
+  background-color: rgba(15, 17, 14, 0.75) !important;
+}
+
+.st-content-inner section .container .row.pt-5 {
+  position: relative;
+  z-index: 1;
+  padding-top: 0 !important;
+}
+
+.coruscant {
+  position: absolute;
+  right: -400px;
+  width: 900px;
+  height: auto;
+  bottom: 0;
+  margin-bottom: -780px;
+  animation: rise 400s linear infinite;
+}
+
+a.btn.btn-styled.bg-white.btn-circle.btn-icon-left.btn-shadow.btn-xl {
+  border: 2px solid white;
+}
+
+a.btn.btn-styled.bg-white.btn-circle.btn-icon-left.btn-shadow.btn-xl:hover {
+  background: none;
+  background-color: transparent !important;
+  color: white;
+}
+
+.card.border.mb-4:hover {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.card.border.mb-4 div.row {
+  padding: 20px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link {
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid var(--primary-color) !important;
+  background-color: transparent !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link:focus {
+  border-bottom: 2px solid var(--primary-color) !important;
+  background-color: transparent !important;
+}
+
+.hero-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+}
+
+.hero-logo {
+  margin-top: 10rem;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.has-bg-cover h1 {
+  display: none !important;
+}
+
+.has-bg-cover .text-left {
+  padding-top: 0 !important;
+}
+
+nav.navbar.navbar-expand-lg {
+  width: 100%;
+}
+
+#navbar_main.navbar-collapse.show,
+#navbar_main.collapsing {
+  background-color: rgba(15, 17, 14, 0.75) !important;
+  margin-top: 13px;
+}
+
+.navbar-nav li {
+  padding-top: 15px;
+}
